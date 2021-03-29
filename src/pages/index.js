@@ -21,7 +21,6 @@ function Home() {
       path: 'https://assets4.lottiefiles.com/packages/lf20_tr1pjkop.json', // the path to the animation json
     })
   },[])
-  console.log(neko)
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}

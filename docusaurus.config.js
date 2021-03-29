@@ -9,8 +9,12 @@ module.exports = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
+    // colorMode: {
+    //   disableSwitch: true, // 禁用 亮暗主题切换 antd引入的样式会冲突
+    // },
     navbar: {
       title: 'My Site',
+
       items: [
         {
           to: 'docs',
@@ -18,13 +22,13 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {to: 'links', label: 'Links', position: 'left'},
+        { to: 'blog', label: 'Blog', position: 'left' },
+        { to: 'links', label: 'Links', position: 'left' },
         {
           href: 'https://github.com/yujiantao4616',
           label: 'GitHub',
           position: 'right',
-        }
+        },
       ],
     },
     footer: {
@@ -55,4 +59,4 @@ module.exports = {
       },
     ],
   ],
-};
+}
