@@ -1,0 +1,28 @@
+.menu-container{
+    min-width: 256px;
+    width: 20%;
+    max-width: 512px;
+    border-right: 1px solid var(--ifm-toc-border-color);
+    overflow-y: auto;
+}
+.menu-container .menu-item:not(:last-child){
+    border-bottom: 1px solid var(--ifm-toc-border-color);
+}
+.menu-item{
+    padding: 10px 0;
+    margin: 0 20px;
+    transition: all .3s;
+}
+.menu-item:hover{
+    color: #25c2a0 ;
+}
+.menu-item-title{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.menu-item-description{
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

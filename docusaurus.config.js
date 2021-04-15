@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'My Site',
+  title: 'YuJiantao',
   tagline: 'The tagline of my site',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -9,12 +9,11 @@ module.exports = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
-    // colorMode: {
-    //   disableSwitch: true, // 禁用 亮暗主题切换 antd引入的样式会冲突
-    // },
+    colorMode: {
+      disableSwitch: true, // 禁用 亮暗主题切换 antd引入的样式会冲突
+    },
     navbar: {
-      title: 'My Site',
-
+      title: 'Yujiantao',
       items: [
         {
           to: 'docs',
